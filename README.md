@@ -21,8 +21,11 @@ Thie will override SNI (Server Name Indication) with another server name. This c
 ```
 openssl s_client -servername www.example.com -host example.com -port 443
 
+```
+
 Connect to a server and display the full certificate chain for a particular host name:
 
+```
 openssl s_client -showcerts -host twitter.com -port 443 </dev/null
 
 openssl s_client -servername www.google.com -host google.com -port 443
