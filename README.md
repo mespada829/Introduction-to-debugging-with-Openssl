@@ -7,7 +7,7 @@ Below you will find my own cheatsheet as per uses cases, or at least as I have t
 If you have any other useful commands feel free to email me.
 
 
-##Troubleshooting - TLS client connecting to a remote server
+# Troubleshooting - TLS client connecting to a remote server
 
 If you are testing if you can connect to a remote server you could use the following:
 
