@@ -7,7 +7,7 @@ Below you will find my own cheatsheet as per uses cases, or at least as I have t
 If you have any other useful commands feel free to email me.
 
 
-# Troubleshooting - TLS client connecting to a remote server
+### Troubleshooting - TLS client connecting to a remote server
 
 If you are testing if you can connect to a remote server you could use the following:
 
@@ -59,7 +59,7 @@ openssl s_time -connect google.com:443 -new
 openssl s_time -connect facebook.com:443 -reuse
 
 
-# Converting to PEM format 
+### Converting to PEM format 
 
 In order to use this command you might need to understand the differnce between DER and PEM encondings, they may also be used as extensions.
 
