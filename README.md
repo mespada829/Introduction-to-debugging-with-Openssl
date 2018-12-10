@@ -59,7 +59,7 @@ openssl s_time -connect google.com:443 -new
 openssl s_time -connect facebook.com:443 -reuse
 
 
-Header - Converting to PEM format 
+# Converting to PEM format 
 
 In order to use this command you might need to understand the differnce between DER and PEM encondings, they may also be used as extensions.
 
