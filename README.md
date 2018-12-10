@@ -11,9 +11,10 @@ If you have any other useful commands feel free to email me.
 
 If you are testing if you can connect to a remote server you could use the following:
 
+```
 openssl s_client -connect google.com:443
 openssl s_client -host linkedin.com -port 443
-
+```
 
 Thie will override SNI (Server Name Indication) with another server name. This command is more common now that SNI is accepted, althoguh not in China at the moment due to goverment restrictions. 
 
